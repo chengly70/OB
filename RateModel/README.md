@@ -16,8 +16,8 @@ INPUT: indR index to specify what part of 3D conductance space, uses dSeqHalton2
 
 dSeqHalton2.mat is generated in Matlab via:
 
-'>>' hltob=haltonset(3,'Skip',1e3,'Leap',1e2);
+'>> hltob=haltonset(3,'Skip',1e3,'Leap',1e2);
 
-'>>' nvcSmp=hltob(1:10000,:);
+'>> nvcSmp=hltob(1:10000,:);
 
-'>>' save dSeqHalton2 nvcSmp
+'>> save dSeqHalton2 nvcSmp

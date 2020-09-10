@@ -15,6 +15,9 @@ call_mcRest.m -- example of a single calc for 1 point in parameter space (3D con
 INPUT: indR index to specify what part of 3D conductance space, uses dSeqHalton2.mat which is random halton sequence sampling (see below)
 
 dSeqHalton2.mat is generated in Matlab via:
+
 '>>' hltob=haltonset(3,'Skip',1e3,'Leap',1e2);
+
 '>>' nvcSmp=hltob(1:10000,:);
+
 '>>' save dSeqHalton2 nvcSmp

@@ -7,5 +7,5 @@ get_GsRand.m -- script detailing how random Gs are generated after getting good 
 
 get_Ratios.m -- script detailing how random ratios are generated after getting ratios from Monte Carlo of firing rate
 
-MAT Files: dGs_n.mat contains good coup strengths (Gs_good), each row has w_MG, w_GM, w_Gc. 
-nRst242.mat is result of >> mc_Rest(242); has instance of results
+MAT Files: dGs_n.mat contains good coup strengths (Gs_good), each row has w_MG, w_Gc, w_GM. 
+nRst242.mat is result of >> mc_Rest(242); has one instance of results

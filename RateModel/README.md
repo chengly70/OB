@@ -6,7 +6,7 @@ Li, G. and T. A. Cleland (2017). A coupled-oscillator model of olfactory bulb ga
 call_mcRest.m -- example of a single calc for 1 point in parameter space (3D conductance and Time Vary Sigma), calls mc_Rest.m.
 INPUT: indR index to specify what part of 3D conductance space, see lines 37-39 and dSeqHalton2.mat [which is random halton sequence sampling, see below] for how indR corresponds to a point in 3D conductance space
 
-get_GsRand.m -- script detailing how random Gs are generated after getting good coup strengths from Monte Carlo of firing rate (mc_Rest.m)
+get_GsRand.m -- script detailing how random Gs are generated after getting good coup strengths from Monte Carlo of firing rate (mc_Rest.m) \n
 get_Ratios.m -- script detailing how random ratios are generated after getting ratios from Monte Carlo of firing rate
 
 Main function to run firing rate model: mc_Rest.m

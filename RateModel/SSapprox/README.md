@@ -7,7 +7,7 @@ call_AnMeth.m -- script to call SS approximation method, calls anMeanOnly.m and 
 
 anMeanOnly.m -- function to iteratively solve for shifted mean with no noise
 
-an_MethOrd1.m -- derived from original method in Barreiro & Ly '17 but augmented to include specific OB firing rate model
+an_MethOrd1.m -- function to approx SS stats, solving equations self-consistently. Derived from original method in Barreiro & Ly '17 but augmented to include specific OB firing rate model
 
 get_GsRand.m -- script detailing how random Gs are generated after getting good coup strengths from Monte Carlo of firing rate (mc_Rest.m) 
 

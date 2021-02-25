@@ -1,7 +1,6 @@
-Scalar firing rate model using FI-curve from Li&Cleland model; same membrane time-constants, synaptic dynamics, etc.
+Scalar firing rate model using FI-curve from OB/ClelandMulticom/; same membrane time-constants, synaptic dynamics, etc.
 
-Li, G. and T. A. Cleland (2013). A two-layer biophysical model of cholinergic neuromodulation in olfactory bulb. Journal of Neuroscience 33(7), 3037–3058. 
-Li, G. and T. A. Cleland (2017). A coupled-oscillator model of olfactory bulb gamma oscillations. PLoS computational biology 13(11), e1005760.
+Generates model results for "Odor-evoked Increases in Spiking Variability in the Olfactory Bulb".
 
 call_mcRest.m -- example of a single calc for 1 point in parameter space (3D conductance and Time Vary Sigma), calls mc_Rest.m.
 INPUT: indR index to specify what part of 3D conductance space, see lines 37-39 and dSeqHalton2.mat [which is random halton sequence sampling, see below] for how indR corresponds to a point in 3D conductance space

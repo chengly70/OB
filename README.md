@@ -1,4 +1,4 @@
 # OB
 Olfactory Bulb Models
 
-Sub-Directories: ClelandMulticom, RateModel, RateModel/SSapprox
+Sub-Directories: ClelandMulticom, ProcessFranksData, ProcessShewData, RateModel, RateModel/SSapprox

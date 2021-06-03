@@ -6,6 +6,6 @@ Sub-directory contains MATLAB scripts to process and display Franks data from
 
 Two scripts to plot the awake head-fixed freely breathing data from same paper.  
 Assumes have data from all 8 mice in 170608.mat, -09.mat, -13.mat, -14.mat, -18.mat, -19.mat, -21.mat, -22.mat 
-* Time-varying spiking statistics (PSTH, Var, Cov) in 100ms half overlapping windows, for both Ethyl Butyrate (black) and Hexanoal (green) run: plot_timeStats_DtoF 
-* Shows increases from spontaneous to evoked (time-averaged) for same stats (PSTH, Var, Cov) and odors, run: plot_ssIncr_AtoC . 
+* Time-varying spiking statistics (PSTH, Var, Cov) in 100ms half overlapping windows, for both Ethyl Butyrate (black) and Hexanoal (green) run: plot_timeStats_DtoF.m 
+* Shows increases from spontaneous to evoked (time-averaged) for same stats (PSTH, Var, Cov) and odors, run: plot_ssIncr_AtoC.m . 
 Also displays p-values reported in our paper.

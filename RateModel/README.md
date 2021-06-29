@@ -24,7 +24,7 @@ dSeqHalton2.mat is generated in Matlab via:
 '>> save dSeqHalton2 nvcSmp
 
 Similar scripts for models applied to awake data (Bolding&Franks 2018):
-call_mcAwake.m -- main function to get model results, calls mc_RateAwk.m; other Mat-files (frt2_[].mat) are from running model & saving results. 
+call_mcAwake.m -- main function to get model results, calls mc_RateAwk.m; other Mat-files (frt2_[].mat these are LARGE 10,000 values, email me for a copy) are from running model & saving results. 
  Experimental data from Bolding&Franks saved in mat file: expD_awake_EB.mat to calculate errors of model with data. 
 Scripts to process model results and errors with awake data, generate plots in paper: 
 calc_ErrsPSTH.m -- calc errors of PSTH model with data, save results needed for calc_ErrsVarCov.m
